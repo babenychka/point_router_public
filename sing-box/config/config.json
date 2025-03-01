@@ -1,0 +1,41 @@
+{
+  "inbounds": [
+    {
+      "type": "shadowsocks",
+      "listen": "::",
+      "listen_port": 443,
+      "method": "2022-blake3-aes-128-gcm",
+      "password": "F/mCnDGuOtmuqdWCIN6XsA==",
+      "users": [
+        {
+          "name": "mac",
+          "password": "gMxfGL5e8q+ICFy13fYJVA=="
+        },
+        {
+          "name": "babe-phone",
+          "password": "QXcNThAI5PbtJw5ycKm0xw=="
+        },
+        {
+          "name": "oWRT-main",
+          "password": "yD8nK1+vpOkj35Z4y8bYZg=="
+        },
+        {
+          "name": "oWRT-maks",
+          "password": "4GpAFWPfa5rRi+rP+P6Ofw=="
+        },
+        {
+          "name": "maks",
+          "password": "oSZhoqfVOTUKk8LugpdMGw=="
+        },
+        {
+          "name": "kate",
+          "password": "KT8PT4YkMmoJEzPigZZOUQ=="
+        },
+        {
+          "name": "anna",
+          "password": "pqT8ZnlViRuo6uP6K+wu/g=="
+        }
+      ]
+    }
+  ]
+}
