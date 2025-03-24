@@ -3,7 +3,7 @@ services:
     container_name: sing-box
     image: itdoginfo/sing-box:v1.10.7
     ports:
-      - "443:443"
+      - "8443:8443"
     environment:
       PROTOCOL: shadowsocks
       PASS: "F/mCnDGuOtmuqdWCIN6XsA=="
