@@ -3,7 +3,7 @@
     {
       "type": "shadowsocks",
       "listen": "::",
-      "listen_port": 443,
+      "listen_port": 8443,
       "method": "2022-blake3-aes-128-gcm",
       "password": "F/mCnDGuOtmuqdWCIN6XsA==",
       "users": [
