@@ -20,12 +20,6 @@ cd /root/point_router_public/sing-box-vless
 docker-compose up -d
 
 cd /root/point_router_public/
-# закинуть проект в гитхаб и не ебать себе мозги, просто пулить и все
-# python3.12 -m venv connectionsLimiter
-# cd /root/connectionsLimiter
-# source bin/activate
-# pip install requests schedule
-# deactivate
 
 chmod +x /root/point_router_public/connectionsLimiter/run.sh
 
