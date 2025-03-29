@@ -1,0 +1,44 @@
+{
+  "log": {
+    "level": "debug"
+  },
+  "inbounds": [
+    {
+      "type": "vless",
+      "tag": "vless-in",
+      "listen": "0.0.0.0",
+      "listen_port": 443,
+      "users": [
+        {
+          "name": "test",
+          "uuid": "9eb153c6-9cd1-42c7-ac20-051c2f11072f",
+          "flow": "xtls-rprx-vision"
+        },
+	{
+	  "name": "maks",
+          "uuid": "1914b0b3-9322-40b7-8a32-f4222d1a500d",
+          "flow": "xtls-rprx-vision"
+	}
+      ],
+      "tls": {
+        "enabled": true,
+        "server_name": "nextcloud.sariy.ru",
+        "reality": {
+          "enabled": true,
+          "handshake": {
+            "server": "nextcloud.sariy.ru",
+            "server_port": 443
+          },
+          "private_key": "MA-mNau0Zd_wlUiuDSJTIfchH9APjVmkKgm55o8Lh2M",
+          "short_id": ["ca13d0401a618872", "17023e9fdbeb3b02"]
+        }
+      }
+    }
+  ],
+  "outbounds": [
+    {
+      "type": "direct",
+      "tag": "direct"
+    }
+  ]
+}

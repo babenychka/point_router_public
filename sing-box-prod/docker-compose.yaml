@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  sing-box:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: sing-box
+    ports:
+      - "443:443" # Map the container port to the host
+    restart: always
+    volumes:
+     - ./config:/etc/sing-box/
+    command: -D /var/lib/sing-box -C /etc/sing-box/ run

@@ -14,12 +14,8 @@ newgrp docker
 sudo systemctl start docker
 
 git clone https://github.com/babenychka/point_router_public.git
-cd /root/point_router_public/sing-box 
+cd /root/point_router_public/sing-box-prod
 docker-compose up -d
-cd /root/point_router_public/sing-box-vless
-docker-compose up -d
-
-cd /root/point_router_public/
 
 chmod +x /root/point_router_public/connectionsLimiter/run.sh
 
@@ -46,7 +42,7 @@ systemctl start connectionsLimiter.service
 
 # install and configure nginx hc srv
 
-apt install nginx
+apt install nginx -y
 sed -i '/server_name _;/a\
         location \/hc\/ {\
                 return 200 "OK";\
