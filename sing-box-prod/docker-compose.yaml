@@ -7,8 +7,8 @@ services:
       dockerfile: Dockerfile
     container_name: sing-box
     ports:
-      - "443:443" # Map the container port to the host
-    restart: always
+      - "443:443" 
     volumes:
      - ./config:/etc/sing-box/
     command: -D /var/lib/sing-box -C /etc/sing-box/ run
+    restart: always

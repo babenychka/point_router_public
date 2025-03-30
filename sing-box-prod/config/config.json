@@ -10,15 +10,10 @@
       "listen_port": 443,
       "users": [
         {
-          "name": "test",
+          "name": "user1",
           "uuid": "9eb153c6-9cd1-42c7-ac20-051c2f11072f",
           "flow": "xtls-rprx-vision"
-        },
-	{
-	  "name": "maks",
-          "uuid": "1914b0b3-9322-40b7-8a32-f4222d1a500d",
-          "flow": "xtls-rprx-vision"
-	}
+        }
       ],
       "tls": {
         "enabled": true,
