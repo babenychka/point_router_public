@@ -1,3 +1,4 @@
 sing-box/config/*.json
 sing-box/passwd
 sing-box-vless/config/*.json
+initVM.sh
