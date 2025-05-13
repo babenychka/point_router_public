@@ -740,6 +740,7 @@ nftset=/unian.ua/4#inet#fw4#vpn_domains
 nftset=/unscreen.com/4#inet#fw4#vpn_domains
 nftset=/upwork.com/4#inet#fw4#vpn_domains
 nftset=/usa.one/4#inet#fw4#vpn_domains
+nftset=/usatoday.com/4#inet#fw4#vpn_domains
 nftset=/vagrantcloud.com/4#inet#fw4#vpn_domains
 nftset=/veeam.com/4#inet#fw4#vpn_domains
 nftset=/verstka.media/4#inet#fw4#vpn_domains
