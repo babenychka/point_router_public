@@ -284,6 +284,7 @@ nftset=/gonitro.com/4#inet#fw4#vpn_domains
 nftset=/goodreads.com/4#inet#fw4#vpn_domains
 nftset=/gpsonextra.net/4#inet#fw4#vpn_domains
 nftset=/gpu-monkey.com/4#inet#fw4#vpn_domains
+nftset=/gql.twitch.tv/4#inet#fw4#vpn_domains
 nftset=/gr-assets.com/4#inet#fw4#vpn_domains
 nftset=/grafana.com/4#inet#fw4#vpn_domains
 nftset=/grani.ru/4#inet#fw4#vpn_domains
