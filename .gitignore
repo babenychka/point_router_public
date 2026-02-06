@@ -1,0 +1,6 @@
+private/
+sing-box/config/*.json
+sing-box-prod/config/*
+sing-box/passwd
+sing-box-vless/config/*.json
+initVM.sh
